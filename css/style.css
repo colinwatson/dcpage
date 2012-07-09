@@ -210,6 +210,7 @@ a:active {
 
 @media all and (max-width: 480px) {
   body {
+    background: #e5d7b1 url('../img/bg.jpg') no-repeat top center;
     -webkit-text-size-adjust: none;
     overflow-x: hidden;
   }
@@ -232,6 +233,6 @@ a:active {
   #info { width: 84%; }
   
   #main h2 {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
