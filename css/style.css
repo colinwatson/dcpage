@@ -207,6 +207,7 @@ a:active {
 @media all and (max-width: 520px) {
   body {
     -webkit-text-size-adjust: none;
+    width: 480px;
   }
   #logo {
     width: 85%;
