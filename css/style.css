@@ -204,7 +204,7 @@ a:active {
   
 }
 
-@media all and (max-width: 520px) {
+@media all and (max-width: 480px) {
   body {
     -webkit-text-size-adjust: none;
   }
