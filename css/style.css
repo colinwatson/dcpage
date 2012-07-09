@@ -222,9 +222,13 @@ a:active {
     background: none;
   } 
 
+  #header {
+    height: 100px;
+  }
+
   #logo {
     width: 80%; overflow-x: hidden;
-    margin: 40% auto 0; 
+    margin: 20% auto 0; 
   }
   #logo img {
     width: 80%; overflow-x: hidden;
