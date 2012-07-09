@@ -209,9 +209,14 @@ a:active {
     -webkit-text-size-adjust: none;
   }
   body, html, #header, #main, #footer {
-    max-width: 100%;
+    width: 480px;
   }
+  
   img { max-width: 100%; }
+
+  #wave1, #wave2 {
+    background: none;
+  } 
 
   #logo {
     width: 85%;
