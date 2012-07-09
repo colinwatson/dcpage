@@ -207,10 +207,9 @@ a:active {
 @media all and (max-width: 520px) {
   body {
     -webkit-text-size-adjust: none;
-    width: 100%;
   }
-  html {
-    width: 100%;
+  body, html, #header, #main, #footer {
+    max-width: 100%;
   }
   img { max-width: 100%; }
 
