@@ -105,6 +105,10 @@ body {
   width: 30%;
 }
 
+img {
+  max-width: 100%;
+}
+
 /*
  * Type and colour
 */
