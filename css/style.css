@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: #e5d7b1 url('../img/bg.jpg') transparent no-repeat top center;
+  background: url('../img/bg.jpg') transparent no-repeat top center;
   margin: 0;
   overflow-x: hidden;
 }
