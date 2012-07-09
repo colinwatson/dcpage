@@ -207,8 +207,10 @@ a:active {
 @media all and (max-width: 520px) {
   body {
     -webkit-text-size-adjust: none;
-    width: 480px;
+    width: 100%;
   }
+  img { max-width: 100%; }
+
   #logo {
     width: 85%;
     margin: 200px auto 0;    
