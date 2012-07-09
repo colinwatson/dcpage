@@ -207,23 +207,22 @@ a:active {
 @media all and (max-width: 480px) {
   body {
     -webkit-text-size-adjust: none;
+    overflow-x: hidden;
   }
-  body, html, #header, #main, #footer {
-    width: 480px;
+  body, html {
+    width: 100%; overflow-x: hidden;
   }
-  
-  img { max-width: 100%; }
 
   #wave1, #wave2 {
     background: none;
   } 
 
   #logo {
-    width: 85%;
-    margin: 200px auto 0;    
+    width: 80%; overflow-x: hidden;
+    margin: 200px auto 0; 
   }
   #logo img {
-    width: 90%;
+    width: 80%; overflow-x: hidden;
   }
     
   #info { width: 84%; }
