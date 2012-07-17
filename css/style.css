@@ -276,7 +276,7 @@ a:active {
  }
 }
 
-@media all and (min-device-width: 768px), and (max-device-width: 1024px) {
+@media all and (max-device-width: 768px) {
   #wave1, #wave2 { background: none; }
 }
 
