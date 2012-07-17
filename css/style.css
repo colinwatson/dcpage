@@ -275,9 +275,9 @@ img {
   max-width: 100%;
 }
 
-@media all and (max-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   body {
-    background: #e5d7b1;
+    background-color: #e5d7b1;
     -webkit-text-size-adjust: none;
     overflow-x: hidden;
   }
