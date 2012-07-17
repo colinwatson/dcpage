@@ -289,8 +289,12 @@ a:active {
 
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 
+  #header {
+    height: 100px;
+  }
+  
 #logo {
-  width: 60%; overflow-x: hidden;
+  width: 50%; overflow-x: hidden;
   margin: 10% auto 0; 
 }
 #logo img {
