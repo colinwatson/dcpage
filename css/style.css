@@ -296,6 +296,26 @@ a:active {
 #logo img {
   width: 100%; overflow-x: hidden;
 }
+
+#wave1 {
+  position: absolute;
+  z-index: 1;
+  height: 420px;
+  background: url('../img/wave1.png') top center no-repeat;
+  top: -100px;
+  width: 100%;
+  left: -50px;
+}
+#wave2 {
+  position: absolute;
+  z-index: 1;
+  height: 420px;
+  background: url('../img/wave2.png') top center no-repeat;
+  top: -80px;
+  width: 100%;
+  left: -50px;
+}
+
 }
 
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
