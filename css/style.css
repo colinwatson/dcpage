@@ -20,6 +20,17 @@ body {
   position: relative;
 }
 
+#waves {
+  position: relative;
+  z-index: 1;
+  height: 420px;
+  width: 1920px;
+}
+
+#wave1, #wave2 {
+  overflow-x: hidden;
+  max-width: 100%;
+}
 #footer {
   text-align: center;
   margin: 0 auto;
@@ -277,7 +288,7 @@ a:active {
 }
 
 @media all and (max-device-width: 768px) and (orientation: portrait) {
-  #wave1, #wave2 { background: none; }
+/*  #wave1, #wave2 { background: none; }*/
 }
 
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -288,7 +299,6 @@ a:active {
     margin: 0;
   }
   
-  #wave1, #wave2 { background: none; }
 }
 
 
