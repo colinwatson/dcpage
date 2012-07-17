@@ -275,7 +275,7 @@ img {
   max-width: 100%;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 520px) {
   body {
     background: #e5d7b1;
     -webkit-text-size-adjust: none;
