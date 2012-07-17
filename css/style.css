@@ -276,15 +276,16 @@ a:active {
  }
 }
 
-@media all and (max-device-width: 768px) {
+@media all and (max-device-width: 768px) and (orientation: portrait) {
   #wave1, #wave2 { background: none; }
 }
 
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   
   body, html {
-    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
+    margin: 0;
   }
   
   #wave1, #wave2 { background: none; }
