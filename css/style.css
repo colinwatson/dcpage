@@ -304,6 +304,9 @@ a:active {
     font-size: 18px;
   }
   
+  #newsletter a, #twitter a, #volunteer a {
+    padding-bottom: 20px;
+  }
   #byline {
     width: 100%;
   }
