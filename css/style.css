@@ -289,6 +289,14 @@ a:active {
 
 @media all and (max-device-width: 768px) and (orientation: portrait) {
 /*  #wave1, #wave2 { background: none; }*/
+
+#logo {
+  width: 80%; overflow-x: hidden;
+  margin: 20% auto 0; 
+}
+#logo img {
+  width: 100%; overflow-x: hidden;
+}
 }
 
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
