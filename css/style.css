@@ -284,6 +284,7 @@ a:active {
   
   body, html {
     max-width: 100%;
+    overflow-x: hidden;
   }
   
   #wave1, #wave2 { background: none; }
