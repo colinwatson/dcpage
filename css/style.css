@@ -275,6 +275,11 @@ a:active {
    max-width: 100%;
  }
 }
+
+@media all and (min-device-width: 768px), and (orientation: portrait) {
+  #wave1, #wave2: display: none;
+}
+
 @media all and (max-width: 480px) {
   body {
     background-color: #e5d7b1;
