@@ -287,11 +287,11 @@ a:active {
  }
 }
 
-@media all and (min-device-width: 768px) and(max-device-width: 1024px) and (orientation: portrait) {
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 
 #logo {
   width: 80%; overflow-x: hidden;
-  margin: 20% auto 0; 
+  margin: 10% auto 0; 
 }
 #logo img {
   width: 100%; overflow-x: hidden;
