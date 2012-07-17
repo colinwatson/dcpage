@@ -295,7 +295,7 @@ a:active {
     margin: 20% auto 0; 
   }
   #logo img {
-    width: 80%; overflow-x: hidden;
+    width: 100%; overflow-x: hidden;
   }
     
   #info { width: 84%; }
@@ -309,5 +309,8 @@ a:active {
   }
   #byline {
     width: 100%;
+  }
+  #footer {
+    padding-bottom: 20px;
   }
 }
