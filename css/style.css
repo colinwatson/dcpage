@@ -56,6 +56,11 @@ body {
   margin-top: 20px;
 }
 
+#byline {
+  text-align: center;
+  margin: 0 auto;
+}
+
 #logo {
   width: 482px;
   margin: 200px auto 0;
@@ -67,16 +72,6 @@ body {
   padding-left: 4px;
   padding-right: 4px;
 }
-
-/*#info {
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-  height: 180px;
-  min-height: 180px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}*/
 
 #info {
   width: 52%;
@@ -132,6 +127,7 @@ body {
 }
 
 #footer {
+  font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
   color: #666;
 }
 
@@ -180,6 +176,10 @@ a:active {
  #newsletter a, #twitter a, #volunteer a {
   padding-bottom: 20px;
  }
+ 
+ #byline {
+   width: 70%;
+ }
 }
  
 @media all and (max-width: 1250px) {
@@ -205,7 +205,10 @@ a:active {
   #main h2 {
     font-size: 22px;
   }
-  
+ 
+ #byline {
+   width: 90%;
+ }
 }
 
 @media all and (max-width: 480px) {
@@ -238,5 +241,9 @@ a:active {
   
   #main h2 {
     font-size: 18px;
+  }
+  
+  #byline {
+    width: 100%;
   }
 }
