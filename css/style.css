@@ -278,7 +278,7 @@ a:active {
 @media all and (max-width: 480px) {
   body {
     background-color: #e5d7b1;
-/*    -webkit-text-size-adjust: none;*/
+    -webkit-text-size-adjust: none;
     overflow-x: hidden;
   }
 
