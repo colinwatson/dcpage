@@ -160,7 +160,7 @@ a:active {
     background: url('../img/wave1.png') top center no-repeat;
     top: -100px;
     width: 100%;
-  left: -50px;
+    left: -50px;
   }
   #wave2 {
     position: absolute;
@@ -270,15 +270,15 @@ a:active {
  
  #byline {
    width: 90%;
+ }
+ img {
+   max-width: 100%;
+ }
 }
-img {
-  max-width: 100%;
-}
-
-@media only screen and (max-device-width: 480px) {
+@media all and (max-width: 480px) {
   body {
     background-color: #e5d7b1;
-    -webkit-text-size-adjust: none;
+/*    -webkit-text-size-adjust: none;*/
     overflow-x: hidden;
   }
 
