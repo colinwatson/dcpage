@@ -281,9 +281,6 @@ img {
     -webkit-text-size-adjust: none;
     overflow-x: hidden;
   }
-  body, html {
-    width: 100%; overflow-x: hidden;
-  }
 
   #wave1, #wave2 {
     background: none;
