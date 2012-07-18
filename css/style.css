@@ -319,13 +319,13 @@ a:active {
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   
   body, html {
-    width: 1024px;
+    max-width: 100%;
     overflow-x: hidden;
     margin: 0;
   }
   
   body {
-    background: url('../img/bg.jpg') transparent no-repeat top center;
+    background: url('../img/bg.jpg') red no-repeat top center;
   }
   
   #page {
