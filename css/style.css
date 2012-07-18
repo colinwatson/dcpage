@@ -346,7 +346,7 @@ a:active {
 
 @media all and (max-width: 480px) {
   body {
-    background-color: #e5d7b1;
+    background: #e5d7b1 url('../img/bg-small.png') repeat-x scroll;
     -webkit-text-size-adjust: none;
     overflow-x: hidden;
   }
