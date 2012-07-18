@@ -318,6 +318,14 @@ a:active {
 
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   
+  html {
+    background-color: green;
+  }
+  
+  body {
+    background-color: red;
+  }
+  
   body, html {
     max-width: 100%;
     overflow-x: hidden;
