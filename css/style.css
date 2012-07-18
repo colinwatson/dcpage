@@ -343,10 +343,44 @@ a:active {
   
 }
 
-
 @media all and (max-width: 480px) {
+
+  #wave1, #wave2 {
+    background: none;
+  } 
+
+  #header {
+    height: 200px;
+  }
+
+  #logo {
+    width: 80%; overflow-x: hidden;
+    margin: 200px auto 0; 
+  }
+  #logo img {
+    width: 100%; overflow-x: hidden;
+  }
+    
+  #info { width: 84%; }
+  
+  #main h2 {
+    font-size: 18px;
+  }
+  
+  #newsletter a, #twitter a, #volunteer a {
+    padding-bottom: 20px;
+  }
+  #byline {
+    width: 100%;
+  }
+  #footer {
+    padding-bottom: 20px;
+  }
+}
+
+@media all and (max-device-width: 480px) {
   body {
-    background: #e5d7b1 url('../img/bg-small.png') repeat-x scroll;
+    background: #e5d7b1 url('../img/bg-small.png') repeat-x scroll top center;
     -webkit-text-size-adjust: none;
     overflow-x: hidden;
   }
