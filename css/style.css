@@ -324,7 +324,7 @@ a:active {
     margin: 0;
   }
   
-  body {
+  html {
     background: url('../img/bg.jpg') transparent no-repeat top center;
   }
   
