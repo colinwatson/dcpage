@@ -325,7 +325,7 @@ a:active {
   }
   
   html {
-    background: url('../img/bg.jpg') transparent no-repeat top center;
+    background: url('../img/bg.jpg');
   }
   
   #page {
