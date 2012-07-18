@@ -294,7 +294,7 @@ a:active {
  }
 }
 
-@media all and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 
   body {
     background: url('../img/bg.jpg') transparent no-repeat top center;
@@ -317,7 +317,7 @@ a:active {
 
 }
 
-/*@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 
   body, html {
     margin: 0;
@@ -345,7 +345,7 @@ a:active {
     background: none;
   }
   
-}*/
+}
 
 @media all and (max-width: 480px) {
 
