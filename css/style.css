@@ -308,7 +308,8 @@ a:active {
 }
 #waves {
   position: relative:
-  top: -20px;
+  top: -30px;
+  z-index: 1;
 }
 
 #wave1 {
